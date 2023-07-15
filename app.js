@@ -6,7 +6,6 @@ const mailchimp = require('@mailchimp/mailchimp_marketing');
 //dot env functionality
 require('dotenv').config();
 
-console.log(process.env);
 const app = express()
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
